@@ -53,7 +53,7 @@ class BrowserX25519 extends X25519 {
         Uint8List.fromList(web_crypto.base64UrlDecode(jwk.x!.toDart)),
         type: KeyPairType.x25519,
       ),
-      type: KeyPairType.ed25519,
+      type: KeyPairType.x25519,
     );
   }
 
